@@ -1,4 +1,5 @@
-// Use the .forEach iterator to loop over the following array of objects and say how delicious each one is.
+// Use the .forEach iterator to loop over 
+//the following array of objects and say how delicious each one is.
 // The output should be
 // > Pizza is very delicious
 // > Tacos is mostly delicious
@@ -9,6 +10,12 @@ let foods = [
   {name: "Tacos", level: "mostly"},
   {name: "Cottage Cheese", level: "not very"}
 ];
+
+const foodFunc = foods.forEach((food)=>{
+  console.log(food.name + " is " + food.level + " delicious")
+}
+)
+console.log(foodFunc)
 
 // your code here
 
